@@ -1,0 +1,113 @@
+/* ======================= Common Table Css Start ======================= */
+.table-list {
+    > span {
+        position: relative;
+        margin-inline-end: 8px;
+        padding-inline-end: 8px;
+        &:last-child {
+            margin-inline-end: 0;
+            padding-inline-end: 0;
+            &::before {
+                display: none;
+            }
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 7px;
+            inset-inline-end: 0;
+            inset-block-start: 50%;
+            transform: translateY(-50%);
+            background-color: var(--main-600);
+        }
+    }
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+.table {
+    min-width: max-content;
+
+    &.table-auto-fit {
+        min-width: 100%;
+        width: 100%;
+        table-layout: auto;
+
+        th,
+        td {
+            word-break: normal;
+            overflow-wrap: anywhere;
+            white-space: normal;
+            vertical-align: middle;
+            padding: 12px 12px;
+            font-size: rem(14px);
+            line-height: 1.35;
+        }
+
+        &.table-fit-dense {
+            th,
+            td {
+                padding: 10px 10px;
+                font-size: rem(13px);
+            }
+        }
+
+        &.table-fit-ultra {
+            th,
+            td {
+                padding: 8px 8px;
+                font-size: rem(12px);
+            }
+
+            .btn-action {
+                width: 30px;
+                height: 30px;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    @include xl-screen {
+        &.table-auto-fit {
+            th,
+            td {
+                padding: 8px 8px;
+                font-size: rem(12px);
+            }
+        }
+    }
+
+    &.style-two {
+        th {
+            background-color: var(--gray-50);
+            border-bottom: 0;
+        }
+        th, td {
+            padding: 16px 20px;
+        }
+        td {
+            width: 33.33%;
+            word-wrap: break-word; 
+        }
+        tbody tr {
+            border-bottom: 1px solid var(--gray-100);
+            &:last-child {
+                border-bottom: 0 !important;
+            }
+        }
+    }
+
+    &.style-three {
+        tbody {
+            tr {
+                border-bottom: 1px solid var(--gray-50);
+                td {
+                    padding: 24px 20px !important;
+                }
+            }
+        }
+    }
+}
+/* ======================= Common Table Css End ======================= */

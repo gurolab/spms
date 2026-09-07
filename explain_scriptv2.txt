@@ -1,0 +1,358 @@
+SMS Stakeholder Presentation Script v2
+For Cotabato State University Stakeholder Presentation
+Aligned to: SMS-Corrected.docx
+Prepared on: March 8, 2026
+
+====================================================================
+VERSION A: 10-MINUTE TIMED REHEARSAL SCRIPT
+====================================================================
+
+Goal:
+- Fast, clear, executive-level walkthrough for mixed technical and non-technical stakeholders.
+
+Demo order:
+- Employee -> Supply Officer -> Inventory Officer -> Property Custodian -> Auditor -> System Admin
+
+--------------------------------------------------------------------
+0:00 - 0:45 | Opening
+--------------------------------------------------------------------
+Say:
+"Good day everyone. This is my capstone system, SMS or Supply Management
+System for Cotabato State University.
+
+The project addresses manual and Excel-based delays in requests, inventory
+monitoring, report preparation, and property accountability."
+
+--------------------------------------------------------------------
+0:45 - 1:20 | Non-IT Illustration
+--------------------------------------------------------------------
+Say:
+"Think of SMS as one secure university service desk with six windows:
+Employee, Supply, Inventory, Property, Auditor, and Admin.
+
+Requests enter once, then updates flow across issuance, inventory, property
+accountability, and audit reports in one centralized record."
+
+--------------------------------------------------------------------
+1:20 - 2:20 | Employee Role
+--------------------------------------------------------------------
+Open:
+- employee/dashboard.php
+- employee/requisition.php
+- employee/request-details.php
+- employee/acknowledgment.php
+
+Say:
+"As an employee, I create a request, add line items, and track status.
+While it is still Requested, edits are allowed. Once processing starts, the
+request is locked for integrity. This supports transparent on-time requests."
+
+--------------------------------------------------------------------
+2:20 - 3:20 | Supply Officer Role
+--------------------------------------------------------------------
+Open:
+- supplyofficer/index.php
+- supplyofficer/receive.php
+- supplyofficer/ris.php
+- supplyofficer/issue_supplies.php
+
+Say:
+"As Supply Officer, I record deliveries, monitor RIS requests, and issue
+supplies. Received and issued quantities update stock records and transaction
+history, reducing manual errors and improving traceability."
+
+--------------------------------------------------------------------
+3:20 - 4:20 | Inventory Officer Role
+--------------------------------------------------------------------
+Open:
+- inventoryofficer/dashboard.php
+- inventoryofficer/stock_cards.php
+- inventoryofficer/slc.php
+- inventoryofficer/inventory_reconciliation.php
+
+Say:
+"As Inventory Officer, I monitor stock health, reorder levels, and movement
+history. Reconciliation identifies items that need replenishment action and
+supports evidence-based planning."
+
+--------------------------------------------------------------------
+4:20 - 5:20 | Property Custodian Role
+--------------------------------------------------------------------
+Open:
+- propertycustodian/dashboard.php
+- propertycustodian/ics.php
+- propertycustodian/par.php
+- propertycustodian/property_cards.php
+- propertycustodian/property_transfers.php
+
+Say:
+"As Property Custodian, I manage non-consumable asset accountability through
+ICS, PAR, property cards, and transfer records. This creates a complete
+assignment-to-transfer accountability chain."
+
+--------------------------------------------------------------------
+5:20 - 6:20 | Auditor Role
+--------------------------------------------------------------------
+Open:
+- auditor/dashboard.php
+- administrator/physical_inventory_reports.php
+- administrator/physical_ppe_reports.php
+- administrator/unserviceable_reports.php
+- administrator/audit_logs.php
+
+Say:
+"As Auditor, I review RPCI, RPCPPE, IIRUP, and scoped audit logs.
+The system shows who did what, when, and on which record, improving compliance
+review and evidence retrieval."
+
+--------------------------------------------------------------------
+6:20 - 7:20 | System Admin Role
+--------------------------------------------------------------------
+Open:
+- administrator/dashboard.php
+- administrator/users.php
+- administrator/roles.php
+- administrator/departments.php
+- administrator/suppliers.php
+- administrator/system_settings.php
+
+Say:
+"As System Admin, I manage users, roles, departments, settings, and master
+data. Role-based access ensures each office only sees authorized modules."
+
+--------------------------------------------------------------------
+7:20 - 8:40 | Evaluation Variables (from Chapter I)
+--------------------------------------------------------------------
+Say:
+"Project evaluation focuses on four variables:
+Perceived Usefulness, Perceived Ease of Use, Accessibility, and Security.
+
+Usefulness: less delay and better tracking.
+Ease of Use: role-focused pages and guided forms.
+Accessibility: intranet-oriented access within project scope.
+Security: role guards, CSRF protection, and audit logging."
+
+--------------------------------------------------------------------
+8:40 - 9:30 | Scope and Limitation Disclosure
+--------------------------------------------------------------------
+Say:
+"Consistent with the documented scope, the current version is mainly for
+institutional network use, and legacy manual records are still encoded manually.
+Planned next steps include remote access hardening, data import tools, and
+barcode and forecasting enhancements."
+
+--------------------------------------------------------------------
+9:30 - 10:00 | Closing
+--------------------------------------------------------------------
+Say:
+"In summary, SMS centralizes supply and property operations, improves
+accountability, and supports faster, data-driven decisions. Thank you, and I
+welcome your questions and recommendations."
+
+
+====================================================================
+VERSION B: 20-MINUTE TIMED REHEARSAL SCRIPT
+====================================================================
+
+Goal:
+- Full walkthrough with stronger project-study alignment for adviser, chairperson,
+offices, auditor, and SMS Office stakeholders.
+
+Demo order:
+- Employee -> Supply Officer -> Inventory Officer -> Property Custodian -> Auditor -> System Admin
+
+--------------------------------------------------------------------
+0:00 - 1:30 | Opening and Context
+--------------------------------------------------------------------
+Say:
+"Good day everyone. I am presenting my capstone project, the Supply and
+Property Management System or SMS for Cotabato State University.
+
+The system addresses manual process issues in requests, inventory control,
+property accountability, and report generation."
+
+--------------------------------------------------------------------
+1:30 - 3:00 | Problem Statement and Objective Mapping
+--------------------------------------------------------------------
+Say:
+"Based on Chapter I, the primary problems are:
+1) slow manual recording and retrieval,
+2) inventory inaccuracies and stock issues,
+3) time-consuming report generation.
+
+The objective is a web-based system that centralizes recording, tracking,
+reporting, and role-based transactions."
+
+--------------------------------------------------------------------
+3:00 - 4:00 | Simple Illustration for Non-IT Stakeholders
+--------------------------------------------------------------------
+Say:
+"Imagine one official digital logbook shared by six offices.
+Each office has a dedicated window but writes into one secure institutional
+record. This removes duplicate encoding and supports real-time visibility."
+
+--------------------------------------------------------------------
+4:00 - 6:00 | Employee Walkthrough
+--------------------------------------------------------------------
+Open:
+- employee/dashboard.php
+- employee/requisition.php
+- employee/request-details.php
+- employee/acknowledgment.php
+
+Say:
+"Employee users submit RIS requests with purpose and item lines.
+Editable while Requested, then locked once processing begins.
+Status monitoring gives transparency and reduces manual follow-up."
+
+Illustration line:
+"Before: a paper request could be misplaced.
+Now: request status is visible in one click."
+
+--------------------------------------------------------------------
+6:00 - 8:00 | Supply Officer Walkthrough
+--------------------------------------------------------------------
+Open:
+- supplyofficer/index.php
+- supplyofficer/receive.php
+- supplyofficer/ris.php
+- supplyofficer/issue_supplies.php
+- supplyofficer/inventory_reports.php
+
+Say:
+"Supply Officer records received deliveries, monitors RIS queue, and issues
+quantities based on stock and request balance. Transactions are recorded and
+stock updates are reflected in system records."
+
+Illustration line:
+"Before: encoding and checking were separate manual steps.
+Now: receiving and issuing are linked to stock records."
+
+--------------------------------------------------------------------
+8:00 - 10:00 | Inventory Officer Walkthrough
+--------------------------------------------------------------------
+Open:
+- inventoryofficer/dashboard.php
+- inventoryofficer/stock_cards.php
+- inventoryofficer/slc.php
+- inventoryofficer/inventory_reconciliation.php
+
+Say:
+"Inventory Officer uses stock cards and supply ledger to monitor balances and
+movement history. Reconciliation highlights items requiring replenishment."
+
+Illustration line:
+"Before: shortage is noticed late.
+Now: reorder indicators support earlier planning."
+
+--------------------------------------------------------------------
+10:00 - 12:00 | Property Custodian Walkthrough
+--------------------------------------------------------------------
+Open:
+- propertycustodian/dashboard.php
+- propertycustodian/ics.php
+- propertycustodian/par.php
+- propertycustodian/property_cards.php
+- propertycustodian/property_transfers.php
+
+Say:
+"Property Custodian manages accountability documents for non-consumable assets:
+ICS, PAR, property cards, and transfers.
+This preserves assignment, movement, and transfer history."
+
+Illustration line:
+"Before: tracing accountability takes multiple files.
+Now: accountability chain is centralized."
+
+--------------------------------------------------------------------
+12:00 - 14:00 | Auditor Walkthrough
+--------------------------------------------------------------------
+Open:
+- auditor/dashboard.php
+- administrator/physical_inventory_reports.php
+- administrator/physical_ppe_reports.php
+- administrator/unserviceable_reports.php
+- administrator/audit_logs.php
+
+Say:
+"Auditor role reviews compliance reports and scoped activity logs.
+RPCI, RPCPPE, and IIRUP records are reviewable with supporting details.
+Audit logs provide actor, action, timestamp, and entity references."
+
+Illustration line:
+"Before: evidence gathering is manual and fragmented.
+Now: compliance evidence is easier to retrieve."
+
+--------------------------------------------------------------------
+14:00 - 15:30 | System Admin Walkthrough
+--------------------------------------------------------------------
+Open:
+- administrator/dashboard.php
+- administrator/users.php
+- administrator/roles.php
+- administrator/departments.php
+- administrator/suppliers.php
+- administrator/system_settings.php
+- administrator/audit_logs.php
+
+Say:
+"System Admin manages accounts, roles, departments, suppliers, and governance
+settings. Role-based access enforces module boundaries while preserving full
+oversight for administration."
+
+--------------------------------------------------------------------
+15:30 - 17:30 | Evaluation Summary (Chapter I Variables)
+--------------------------------------------------------------------
+Say:
+"Evaluation variables are:
+1) Perceived Usefulness
+2) Perceived Ease of Use
+3) Accessibility
+4) Security
+
+Usefulness: workflow delays are reduced.
+Ease of Use: role-specific pages simplify user tasks.
+Accessibility: designed for authorized institutional use.
+Security: role guards, CSRF checks, and audit logs are implemented."
+
+--------------------------------------------------------------------
+17:30 - 18:45 | Scope, Limitations, and Honest Disclosure
+--------------------------------------------------------------------
+Say:
+"Current scope is primarily institutional network deployment.
+Legacy data migration remains largely manual.
+These limitations are documented and considered future enhancement areas."
+
+--------------------------------------------------------------------
+18:45 - 19:30 | Roadmap
+--------------------------------------------------------------------
+Say:
+"Recommended next steps:
+1) remote access hardening,
+2) import tools for legacy records,
+3) barcode integration,
+4) inventory forecasting,
+5) continuous user training and feedback."
+
+--------------------------------------------------------------------
+19:30 - 20:00 | Closing
+--------------------------------------------------------------------
+Say:
+"SMS delivers centralized, accountable, and role-based supply and property
+management aligned with project objectives. Thank you, and I welcome your
+questions."
+
+
+====================================================================
+FAST Q&A BRIDGE LINES (OPTIONAL)
+====================================================================
+
+If asked: "What is the biggest benefit?"
+Say: "Centralized real-time tracking with accountability across all roles."
+
+If asked: "What is still limited?"
+Say: "Remote access and legacy data migration are planned next iterations."
+
+If asked: "How is security handled?"
+Say: "Role-based module access, authenticated sessions, CSRF protection, and
+audit logs for traceability."

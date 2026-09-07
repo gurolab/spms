@@ -1,0 +1,295 @@
+﻿SMS Stakeholder Presentation Script
+For Cotabato State University Stakeholder Presentation
+Prepared on: March 8, 2026
+
+====================================================================
+1) Opening Script (Use This First)
+====================================================================
+
+Good day, everyone. Thank you for giving us time to present my capstone system,
+SMS or Supply Management System in the context of State University.
+
+This system digitizes the university flow of:
+1. Requesting supplies or property
+2. Approving and issuing items
+3. Tracking stock and accountability
+4. Producing compliance reports
+5. Recording audit trails
+
+Our design follows role-based access, so each office sees only what is relevant
+to their function, while still keeping a complete institutional record.
+
+
+====================================================================
+2) Simple Non-IT Illustration
+====================================================================
+
+Think of SMS as one shared official logbook with six counters:
+
+- Employee Counter: places requests
+- Supply Counter: receives and issues supplies
+- Inventory Counter: monitors stock levels and reorder risks
+- Property Counter: tracks non-consumable assets and transfers
+- Auditor Counter: reviews compliance reports and logs
+- Admin Counter: manages users, settings, and full oversight
+
+Illustration of data flow:
+
+Employee Request (RIS)
+        |
+        v
+Supply Review + Issuance (RSMI)
+        |
+        +--> Stock Balance + Ledger Update
+        |
+        v
+If item is property/non-consumable:
+ICS/PAR + Property Card + Transfer Tracking
+        |
+        v
+Audit Logs + Compliance Reports (RPCI/RPCPPE/IIRUP)
+
+
+====================================================================
+3) Recommended Demo Sequence
+====================================================================
+
+Use this account-switch order for better storytelling:
+1. Employee (creates request)
+2. Supply Officer (receives and issues)
+3. Inventory Officer (stock control and reconciliation)
+4. Property Custodian (ICS/PAR/property cards/transfers)
+5. Auditor (compliance review)
+6. System Administrator (governance and full oversight)
+
+
+====================================================================
+4) Script Per Role
+====================================================================
+
+--------------------------------------------------------------------
+A) EMPLOYEE ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: employee/dashboard.php
+- Request page: employee/requisition.php
+- Request details: employee/request-details.php
+- Status page: employee/acknowledgment.php
+
+What to say:
+
+1. "As an employee, I can create my own request without manual paper routing."
+2. "In Request Supplies and Property, I click Create New Request, enter date,
+   fund cluster, purpose, and remarks."
+3. "After creating the header, I open the request and add line items."
+4. "While status is Requested, I can still edit quantity or remove a line."
+5. "Once processing starts, the request becomes locked for integrity."
+6. "In View Status, I can monitor RIS progress and also see active ICS/PAR
+   records assigned to me."
+
+Business value line:
+- "Employees gain transparency. They no longer need to guess if their request
+  is pending, partially issued, or completed."
+
+
+--------------------------------------------------------------------
+B) SUPPLY OFFICER ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: supplyofficer/index.php
+- Receive: supplyofficer/receive.php
+- Manage RIS: supplyofficer/ris.php
+- Issue Supplies: supplyofficer/issue_supplies.php
+- Inventory reports: supplyofficer/inventory_reports.php
+
+What to say:
+
+1. "As Supply Officer, my dashboard shows receipts logged, quantity received,
+   pending RIS, and open issuances."
+2. "In Receive Supplies, we log incoming deliveries by receipt number, supplier,
+   date, and receiving details."
+3. "When we add received items, stock quantities are updated automatically,
+   and movement is recorded in stock/ledger history."
+4. "In Manage RIS, we monitor request status from Requested to Completed."
+5. "In Issue Supplies, we create an issuance (RSMI), then add line items based
+   on RIS remaining quantity and available stock."
+6. "The system prevents over-issuance and auto-updates item issuance progress
+   and RIS status."
+
+Business value line:
+- "This reduces manual errors in issuing and gives traceable proof for every
+  release transaction."
+
+
+--------------------------------------------------------------------
+C) INVENTORY OFFICER ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: inventoryofficer/dashboard.php
+- Stock Cards: inventoryofficer/stock_cards.php
+- Supply Ledger Card: inventoryofficer/slc.php
+- Reconciliation: inventoryofficer/inventory_reconciliation.php
+
+What to say:
+
+1. "As Inventory Officer, I focus on stock health and reorder controls."
+2. "Stock Cards show on-hand balance, safety stock, reorder level, and item
+   health status."
+3. "I can adjust reorder level, reorder quantity, and safety stock per item."
+4. "In Supply Ledger Card, I open one item and view full movement history:
+   qty in, qty out, balance, unit cost, and reference source."
+5. "In Inventory Reconciliation, the system flags items needing action and
+   computes suggested reorder quantities."
+
+Business value line:
+- "This gives management early warning before stockouts and supports
+  evidence-based procurement planning."
+
+
+--------------------------------------------------------------------
+D) PROPERTY CUSTODIAN ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: propertycustodian/dashboard.php
+- ICS: propertycustodian/ics.php and ics_items.php
+- PAR: propertycustodian/par.php and par_items.php
+- Property Cards: propertycustodian/property_cards.php
+- Transfers: propertycustodian/property_transfers.php
+
+What to say:
+
+1. "As Property Custodian, I manage accountability for non-consumable assets."
+2. "ICS and PAR modules capture assignment details, responsible officer,
+   issue date, and status."
+3. "For each document, we maintain line items with property number and value."
+4. "Property Cards consolidate status and movement history for each tagged asset."
+5. "Property Transfers record from/to officer or department, transfer type,
+   and status progression."
+
+Business value line:
+- "This builds a full accountability chain for university property,
+  from assignment to transfer and final disposition."
+
+
+--------------------------------------------------------------------
+E) AUDITOR ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: auditor/dashboard.php
+- Compliance pages (linked to admin modules):
+  - RPCI: administrator/physical_inventory_reports.php
+  - RPCPPE: administrator/physical_ppe_reports.php
+  - IIRUP: administrator/unserviceable_reports.php
+  - Audit Logs: administrator/audit_logs.php
+
+What to say:
+
+1. "As Auditor, I can access compliance report modules and audit logs within
+   my authorized scope."
+2. "RPCI, RPCPPE, and IIRUP pages allow review of prepared reports and
+   supporting line items."
+3. "Audit Logs provide timestamped activity records with metadata and
+   field-level change trail when available."
+4. "Current note: the dedicated Auditor dashboard analytics is still under
+   staged development, while core report access is already available."
+
+Business value line:
+- "Audit evidence becomes easier to retrieve because logs and compliance
+  data are centralized."
+
+
+--------------------------------------------------------------------
+F) SYSTEM ADMIN ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: administrator/dashboard.php
+- Users: administrator/users.php
+- Roles: administrator/roles.php
+- Departments: administrator/departments.php
+- Suppliers: administrator/suppliers.php
+- System settings: administrator/system_settings.php
+- Audit logs: administrator/audit_logs.php
+
+What to say:
+
+1. "As System Admin, I have full governance visibility across users,
+   operations, inventory, property, and reports."
+2. "In Users, I create or update accounts, assign role and department,
+   and manage account status."
+3. "In Roles and Departments, I maintain organizational structure mapping."
+4. "In System Settings, I configure organization profile and branding."
+5. "The dashboard aggregates core KPIs: user activity, pending RIS,
+   inventory alerts, open accountabilities, and audit events."
+6. "Audit Logs help confirm who did what, when, and on which record."
+
+Business value line:
+- "Administration can enforce policy and accountability without waiting for
+  manual consolidation from multiple offices."
+
+
+====================================================================
+5) Evaluation Summary (Stakeholder-Friendly)
+====================================================================
+
+Current strengths observed:
+1. Clear role-based access by function (Employee, Supply, Inventory, Property,
+   Auditor, Admin).
+2. End-to-end supply process is integrated:
+   receiving and issuing update stock balances and ledger history.
+3. Employee self-service request and status tracking is operational.
+4. Property accountability modules (ICS, PAR, property cards, transfers)
+   are operational.
+5. Authentication includes rate-limit protection and audit logging.
+6. Audit log viewer includes scoped access, metadata view, and change trail.
+
+Current limitations to disclose transparently:
+1. Auditor dashboard analytics page itself is still marked as under development,
+   while report pages are accessible.
+2. Audit logging is strongest in authentication/profile/user/supplier/employee
+   request actions; some other modules can still be expanded for deeper
+   action-by-action logging coverage.
+3. CSRF protection for most forms relies on JavaScript token injection,
+   so browser script execution must remain enabled in production.
+
+
+====================================================================
+6) Suggested Stakeholder Q&A Script
+====================================================================
+
+Q: "Can this reduce delays in request processing?"
+A: "Yes. Requests, issuance progress, and accountability status are visible
+in one system, reducing follow-up delays and duplicate paper coordination."
+
+Q: "How do you ensure accountability?"
+A: "Every role has controlled access, and key actions are recorded in the
+activity log with user identity, timestamp, and metadata."
+
+Q: "How do we know stock is accurate?"
+A: "Stock updates are event-driven from receiving and issuance, then reflected
+in stock cards, reconciliation watchlists, and ledger entries."
+
+Q: "Can this support compliance reporting?"
+A: "Yes. RPCI, RPCPPE, and IIRUP modules are included with report headers,
+line items, and printable outputs."
+
+Q: "What is next after this presentation?"
+A: "Next steps are pilot rollout by office, expanded audit coverage for all
+modules, and enhancement of auditor analytics dashboards."
+
+
+====================================================================
+7) Closing Script
+====================================================================
+
+In summary, SMS provides a practical digital workflow for supply and property
+management in the university setting. It improves visibility, accountability,
+and traceability across offices while aligning day-to-day transactions with
+reporting and audit requirements.
+
+Thank you, and we welcome your feedback for deployment planning.

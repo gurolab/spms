@@ -1,0 +1,680 @@
+CHAPTER I
+Introduction
+Background of the Study
+In today's fast-paced environment, efficient supply office management is important. Computerized systems offer significant advantages by automating transactions, improving data organization, and enhancing overall operational efficiency, leading to better resource allocation and cost savings. According to (Laudon & Laudon, 2020) computerized systems play a vital role in the modern technological world by enhancing organization, increasing efficiency, and improving the way transactions are conducted in businesses and educational institutions alike.
+Within the current acceleration, efficient resource management is critical to the success and sustainability of any organization. One of the key areas requiring effective oversight is the supply office, where procurement, inventory tracking, and asset distribution are routinely handled. Traditional manual systems often result in inefficiencies such as delayed transactions, data inaccuracies, and poor inventory visibility, which can hamper operational performance.
+Cotabato State University's Supply and Property Office, under the direction of Engr. John A. Allesa, MIS, and his four-person staff, is responsible for the efficient management of supplies and equipment across the university's thirty two (32) offices and nine (9) departments. This includes acquisition, maintenance, and disposal. Currently, the supply office uses MS Excel for record-keeping, resulting in manual monitoring, recording, and data retrieval. This process is inefficient, especially when preparing inventory and consolidated reports. Furthermore, the manual processing of supply requests using physical documents increases the risk of misfiling, leading to delays in distribution and difficulties in retrieving information. The total volume of facilities and equipment distributed across various offices makes it difficult to accurately track and maintain up-to-date records.
+To address these challenges, this capstone project proposes the development of a Supply and Property Management System—a computerized solution designed to efficient supply-related processes within an organization. The system aims to automate key functions such as requisition management, stock monitoring, asset tracking, and reporting, thereby reducing human error and improving overall efficiency.
+By integrating modern software tools and database management systems, the Supply and Property Management System will provide a platform for managing supplies, improving transaction accuracy, and ensuring timely delivery of resources. This project not only highlights the practical application of information technology in administrative functions but also supports better decision-making and resource allocation within the institution.
+Statement of the Problem
+The Supply and Property Office is facing challenges in difficulty in handling university’s office transactions, which includes the following problems:
+The current manual system for recording, monitoring, and retrieving documents related to office supplies, facilities, and equipment at university is inefficient and time-consuming. This leads to delays in processing supply requests, inaccurate inventory records, and wasted staff time, ultimately delaying the university's operational efficiency. 
+Inaccurate inventory records and inefficient request processing for office supplies and equipment result in frequent stockouts, wasted resources due to overstocking, and delays in providing essential supplies to faculty and staff. 
+The current manual processes for generating supply reports at university are time-consuming and cumbersome, placing a significant burden on staff and diverting their time from other essential tasks
+Objectives of the Study
+1.3.1 General Objectives
+The general objective of this study is to design and develop a Web-based application for Supply and Property Office Management System. 
+1.3.2 Specific Objectives
+In order to achieve the general objective of this project, the following are the specific objectives that must be undertaken:
+1.3.2.1 To develop and implement a user-friendly, web-based Supply and Property Management System that centralizes the recording, tracking, and reporting of all office supplies and equipment.
+1.3.2.2 To automate the process of checking and verifying supply requests to ensure accuracy, reduce processing time, and minimize human error.
+1.3.2.3 To develop and provide an inventory management system that facilitate the tracking, updating, and reporting of office supplies.
+1.3.2.4 To deploy and implement the system to Agency’s preferred domain and webhost.
+1.3.2.5 To conduct evaluation to what extent the effect of Supply and Project Management System in the Cotabato State University. The Evaluation will focus on the following variables;
+- Perceived Usefulness
+- Perceived Ease of Use
+- Accessibility
+- Security 
+Scope and Limitation of the Project
+Simon & Goes (2013) defines scope of the study as the parameters under which the study will be operating. Scope of the study therefore explains the nature, coverage, setting and how it will be operated in relation to extent and timeframe of the study.
+ Giver the Definition mentioned above, this capstone project will design and develop an web-based Supply and Property Management System to improve the efficiency and accountability of supply management at the university. The system will centralize record-keeping of office supplies and equipment and automate the processes of managing, verifying, and distributing requests to all offices.
+The system also offers real-time inventory management, continuously monitoring the availability of office supplies and equipment. Automated reporting features ensure the timely generation of accurate reports. The system encompasses the following core functionalities:
+Recording
+The system will record and store all data related to office supplies and equipment within the university, including details such as item descriptions, quantities, acquisition dates, current status, and storage locations.
+Filtering
+The system will provide advanced filtering and search options to enable users to quickly locate specific office supplies and equipment based on various criteria such as item name, category, availability, and location.
+On-time Request
+The system will focus on facilitating the timely submission and processing of supply requests from various departments or offices.
+Inventory
+The system will support real-time tracking and updating of office supplies and equipment inventory across multiple office locations. It will allow authorized users to monitor stock levels, add new items, update existing records, and generate inventory reports to ensure availability and proper resource allocation.
+Generation of Reports
+The system will enable timely and automated generation of essential supply office reports, including inventory status, supply requisition history, stock issuance logs, and monthly consumption summaries
+Printing of Documents
+The system will include a document generation and printing feature to allow authorized users to produce and print key documents such as supply requisition forms, inventory summaries, delivery receipts, and asset reports.
+Assessment
+Evaluation was taken after three months of deployment using a survey questionnaire method.
+Limitations
+Simon & Goes (2013) define limitation are matters and occurrence that rise in a study which are out of the researcher’s control. They limit the extensity to which a study can go, and sometimes affect the end result and conclusions that can be drawn.
+The following are the limitations to which this project can go;
+The system can be access within in the institution and is not available from outside. Additionally, the system does not accommodate data migration from existing manual transactions.
+The system is accessible only within the institution's local network and cannot be accessed remotely. Furthermore, it does not support data migration from existing manual records, requiring manual data entry during initial setup.
+Significance of the Study
+Specifically, the study will benefit various stakeholders as follows:
+The proposed Supply and Property Management System will significantly improve Staff efficiency by automating routine tasks such as inventory tracking, request processing, and supply management transactions.
+The system will provide the Head of Office with a user-friendly dashboard displaying key performance indicators (KPIs) such as inventory levels, consumption rates, and predicted shortages. 
+This study will greatly benefit University Offices by providing an efficient system for managing supply requests. The automated system will reduce processing time, minimize errors, improve transparency, and provide real-time tracking of requests, leading to significant cost savings and improved resource allocation.
+The system will provide the Administration with real-time data on supply and equipment usage, enabling more efficient resource allocation and budget management across all offices.
+ Review of Related Literature and System
+The implementation of information systems in supply and property management enhances operational efficiency. As noted by Chiang et al. (2021), centralized databases and automation minimize mistakes associated with manual processes, improve supply tracking, and optimize workflows. These systems connect different departments, facilitating prompt procurement, distribution, and resource monitoring.
+Educational organizations frequently need specialized functionalities in their supply management systems, including budgeting for departments, tracking equipment, and scheduling maintenance. Solutions like Supply Hub and e-Property Manager have been designed to address these requirements, providing dashboards that enable administrators to efficiently monitor supplies and create compliance reports.
+1.6.1 Foreign Literature
+The Supply and Property Management System directly addresses the need for enhanced operational efficiency in supply and property management. By implementing a centralized database and automated workflows, as noted by Chiang et al. (2021), the system minimizes errors, improves supply tracking, optimizes procurement processes, and facilitates efficient resource monitoring across different departments.
+According to the IJERT, (2020) switching from manual to automated systems greatly improves transparency and accountability in supply chain management. Research indicates that tools such as digital approval processes, inventory records, and user authentication help prevent unauthorized access and streamline the auditing process. These advancements reduce typical risks associated with fraud and the mismanagement of resources.
+The proposed Supply and Property Management System incorporates key features identified by IJERT (2020) as crucial for improving supply chain transparency and accountability. These include a digital approval system for purchase requests, a secure database for maintaining accurate inventory records, and a robust user authentication system to prevent unauthorized access. These features, as supported by the IJERT research, will significantly reduce the risks of fraud and resource mismanagement.
+Another study from Ching et al., (2021) cloud-based solutions are becoming increasingly favored for property management across organizations. They offer scalability, real-time data updates, and cost-effectiveness. Functions like automated notifications for low inventory levels and integrated reporting functionalities render these systems essential for contemporary institutions.
+Similar to the benefits observed by Ching et al. (2021) in property management, a cloud-based Supply and Property Management System offers scalability, real-time data updates, and cost-effectiveness for universities. Features such as automated low-inventory alerts and integrated reporting tools are crucial for efficient resource management within contemporary educational institutions.
+Aminu et al., (2020), organizations have progressively embraced intranet systems to improve their operational effectiveness. Intranet web applications facilitate centralized management of data, promoting smooth communication between departments. In the context of supply and property management, these systems offer a consolidated platform for overseeing inventory, handling requests, and producing reports. Additionally, they enhance transparency and accountability by providing real-time tracking and digital approval processes.
+The findings of Aminu et al. (2020) highlight the benefits of intranet systems in supply and property management. Their research emphasizes the importance of centralized data management, efficient request handling, and real-time tracking for enhanced transparency and accountability. These benefits directly align with the objectives of this capstone project, which aims to develop a Supply and Property Management System that incorporates these features to improve efficiency and effectiveness within the university's supply chain.
+1.6.2 Local Literature
+Many universities and organizations have adopted intranet-based solutions for managing supplies and properties. These systems usually feature components for processing requests, managing inventory, and generating reports. For instance, the University of XYZ established a centralized supply management system that lowered inventory discrepancies by 40% in the first year after deployment.
+The Mindanao State University Supply Property Management System is as of now utilizing Supply and Property Management Division, as far as concerns its, propelled the Digitized Equipment Inventory System for the simple access of representatives' individual Institute property accountabilities. Real Inventory of properties was made so as to guarantee that sections are exact in the book of properties. The Office had handled 4,960 vouchers, got 1,973 things from different providers and issued 1,835 things to various areas of the Institute. The workplace likewise encouraged the bartering closeout of all denounced unserviceable property and hardware that produced Php110, 000.00.
+The current Mindanao State University Supply Property Management System, while employing a Digitized Equipment Inventory System, still relies heavily on manual processes. This is evident in the handling of 4,960 vouchers, receipt of 1,973 items, and issuance of 1,835 items, all of which are subject to human error and inefficiencies. The need for physical inventory checks to ensure accuracy in property records underscores the limitations of the current system. Even the successful auction of unserviceable property, generating Php110,000.00, could be significantly enhanced through a more streamlined and automated system. A comprehensive Supply and Property Management System would address these limitations by automating key processes, such as voucher processing, inventory tracking, and report generation, reducing manual workload, improving accuracy, and providing real-time data for enhanced decision-making. The Supply and Property Management System would offer a centralized, user-friendly platform, streamlining operations and maximizing efficiency in managing the university's supplies and equipment.
+Espinida & Formanes (2025), to address the inefficiencies of traditional, manual inventory processes, which often lead to data loss, delayed supply requests, and inaccurate stock monitoring. Using a web-based interface and a centralized database, the system allowed staff to request, monitor, and issue supplies in real time. The implementation resulted in a 60% reduction in processing time for supply requests and improved accountability through automated audit trails. The researchers concluded that automating supply office operations contributes significantly to institutional productivity and reduces administrative burden.
+This study supports the development of the Supply and Property Management System by demonstrating how automation and digitalization can optimize supply-related processes. It also validates the benefits of centralized data management, real-time inventory tracking, and user-specific access, which are key components in the proposed system. The positive outcomes from the referenced study affirm the need for similar systems in universities and government institutions.
+According to Soni et.al (2023), inventory system is a crucial part of any organization, including educational institutions like universities. It is necessary to manage inventory information such as supply to the department, purchases, and balance-stock information. The interior of storage management can be considered to be a kind of layered management and its exterior, together with related entities, such as supplier and customer.
+The study by Soni et al. (2023) closely relates to the development of a Supply and Property Management System, particularly in the context of educational institutions. Their findings emphasize that an inventory system is an essential component of any organization, including universities, as it enables effective handling of supply transactions, purchase tracking, and monitoring of stock balances. This aligns with the objectives of the Supply and Property Management System, which is designed to automate and streamline the supply processes within an institution.
+Moreover, the concept of layered management mentioned in the study supports the system’s architectural design, where internal operations (such as stock issuance and department supply) are managed through defined roles and access levels, while external interactions (like supplier coordination) are facilitated through structured communication flows. This reinforces the need for a multi-tier system that can integrate both internal and external processes, ensuring accountability, transparency, and efficiency.
+Another study from Tungcul and Kummer (2021) inventory system have been used in Tracking the inventory and monitoring of the supplies and equipment. An inventory management model or system serves many purposes when introduced in an organization by making the work easier and simplified. It makes sure that there is uninterrupted production in the business by ensuring timely and enough supply of the raw materials and gives proper record of all the loss or the consumption of the stock is maintained at all the times which helps in turn to replenish the stock as and when required.
+The study by Tungcul and Kummer (2021) is closely related to the Supply and Property Management System capstone project, as it emphasizes the essential role that inventory systems play in ensuring efficient tracking and monitoring of supplies and equipment within an organization. Their findings underscore how an inventory management system simplifies operational tasks, facilitates timely replenishment of stock, and helps maintain accurate records of stock consumption and losses. These points align directly with the objectives of the Supply and Property Management System, which aims to automate manual processes, reduce human error, and improve the accuracy and efficiency of inventory handling in institutional settings. By integrating such a system, organizations—such as educational institutions—can maintain uninterrupted operations, ensure the availability of essential supplies, and enhance decision-making through reliable data. Therefore, the Tungcul and Kummer study supports the rationale behind implementing a digital solution for supply and property management, reinforcing its importance in achieving organizational efficiency and accountability.
+Treceñe et.al (2017) In today’s growing market many businesses turn toward automated systems to perform their everyday tasks. One automated system that is becoming more popular is the automated inventory system. The Leyte Normal University Supply Office is one of the Offices that caters to the Delivery and Inventory of Supplies and Equipment to its end users. Due to its numerous transactions, the Supply Office currently experiences problems in their transactions since all processes are done manually. Specifically, the generation of reports during the inventory and monitoring of equipment’s proved to be a great struggle.
+The study by Treceñe et al. (2017) reinforces the need for developing an automated Supply and Property Management System by showcasing the limitations and inefficiencies of manual inventory processes in a real institutional setting—Leyte Normal University. Their research emphasizes how manual systems lead to difficulties in handling numerous transactions, particularly in generating reports and monitoring supplies and equipment. These challenges are also commonly observed in other institutions, including schools and government offices, where supply offices are expected to manage large volumes of inventory with accuracy and speed.
+Relating this to the current study, the proposed Supply and Property Management System aims to address the exact issues highlighted by Treceñe et al. By automating processes such as supply requests, issuance, returns, and report generation, the system minimizes the risks of data loss, delays, and human error. The struggles faced by Leyte Normal University's Supply Office underscore the importance of transitioning to a digital system that ensures real-time access to inventory data, efficient report generation, and more organized supply monitoring. Thus, Treceñe et al.’s study provides strong justification for the development and implementation of automated systems in supply management, validating the goals and relevance of this capstone project.
+Finally, it was emphasized that the primary objective of the proposed stock framework is to promote the overall activity of the organization. Specific goals include developing a data system that is adaptable, precise, effective, and user-friendly. Additionally, it should not only be cost-effective in meeting the organization’s financial targets but also provide data security to prevent the accidental loss of information. Furthermore, it should be compatible with the organization to facilitate a seamless flow of information from one stage to the next, while also eliminating redundancy.
+The proposed Supply and Property Management System directly addresses the need for an adaptable, precise, effective, and user-friendly data system. This system will improve efficiency, reduce costs, enhance data security, and ensure seamless information flow across all stages of supply management, thus promoting the overall activity of the organization.
+Operational Definition of Terms
+To ensure better understanding and clarity within the context of this research study, the following terms are defined operationally.
+Record: Refers to the stored data within the system that pertains to office supplies and equipment, including details such as item names, quantities, dates of transactions, and responsible personnel.
+Intranet. A private network accessible only within the institution or office, used to securely share information and system resources among authorized users.
+Filter. A system feature that allows users to narrow down and retrieve specific items or data based on defined criteria, improving the speed and accuracy of searches.
+Reports – Refers to the system-generated documents or summaries that provide real-time data on inventory levels, supply usage, and transaction history to support monitoring and decision-making.
+Data Migration - Data migration refers to the systematic process of transferring existing inventory data, purchase order records, and supplier information from the current manual system to the new Supply and Property Management System database.
+Supply Office Transactions - Supply Office Transaction: Any action related to the management of university assets, including the recording of asset acquisition, assignment to departments, tracking of maintenance, and disposal of assets.
+Access - The ability of authorized users to generate and view reports from the computerized system, based on their assigned role and permissions. This includes access to various types of reports, such as inventory reports, purchase order reports, and budget reports.
+Inventory - Inventory refers to all supplies and equipment managed by the Supply and Property Management System, including office supplies, technology equipment, and furniture.
+Tracking - The process of recording, processing, and monitoring the status of each supply request submitted through the Supply and Property Management System. Successful tracking is defined as the timely and accurate update of request status, with no discrepancies between the system record and the actual status of the request
+Transparency - refers to the system's ability to provide all stakeholders (including staff, faculty, and administrators) with readily accessible and understandable information regarding supply requests, inventory levels, purchase orders, and expenditures. This includes real-time access to data through user-friendly interfaces and clear, concise reporting tools.
+Dashboard - the main user interface screen providing a visual summary of key supply management data through charts, graphs, and tables. These visuals include inventory levels, purchase orders, and expenditure reports for the selected timeframe.
+Activity Diagram – An activity diagram is a graphical representation in the Unified Modeling System (UML) that depicts the flow of activities ir tasks within a system. It provides a visual representation of the dynamic aspects of a system, showing the sequence of activities, actions, decisions and conditions that occur during the processing of records in the system” (UML Specification, Object Management Group (OMG), 2014).
+Component Diagram – A component diagram in a system development is a type is a system development is a type of UML diagram that shows the organization and dependencies of the components or modular parts of a system, and how they interact with each other to achieve the system’s functionality.
+Context Diagram - These diagrams visually represent the structural relationships between components, showcasing how they interact to achieve specific functionalities or services within the system architecture. The component diagram helps in understanding the high-level structure of the system, emphasizing the interactions and dependencies between components to facilitate system design, development, and maintenance.
+Data Flow Diagram - is a graphical representation of the flow of data within a system, illustrating how data moves from one process to another. This visual tool is based on the Unified Modeling Language (UML) Specification by the Object Management Group (OMG) in 2014.
+Deployment Diagram - provides a visual representation of how the software components are deployed in a real-world environment, showing the relationships between software and hardware elements. This diagram is valuable for understanding the configuration of the system and how the software components interact with the hardware infrastructure to support the system's functionality.
+Flowchart - serves as a valuable tool for illustrating complex processes in a clear and structured manner. It allows for the visualization of sequential steps, decision points, loops, and parallel activities within a system, aiding in the understanding of how tasks are interconnected and how data or materials move through various stages. 
+Use Case Diagram - representation of a system's interactions with its users or external systems to achieve a specific goal. It outlines the steps or actions that a user or external system takes to accomplish a particular task within the system. Use cases are typically described in a structured format, including preconditions, main steps, alternative flows, and post-conditions.
+HTTPS - Hypertext Transfer Protocol Secure (HTTPS) is a system that ensures secure communication over a computer network, particularly the internet. It is designed to provide a secure channel for data exchange between a user's web browser and a website. HTTPS encrypts the data transmitted between the user's browser and the website using Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols, preventing unauthorized access or tampering with the information being exchanged.
+ISP - is a crucial component of the modern digital landscape, serving as the gateway that connects individuals and organizations to the vast network of the internet. From the author's perspective, an ISP can be viewed as a pivotal system that facilitates access to online resources and enables communication across the global web.
+Web Host - A web host can be described as a service that provides the necessary infrastructure and resources for individuals or organizations to make their websites accessible on the internet. From the author's point of view, a web host is like a digital landlord that rents out server space, storage, and bandwidth to store website files and make them available online. 
+Chapter II
+Technical Background
+2.1 Technicality of the Project
+The Conceptual framework of the proposed design is shown in Figure below. In order to fully develop the propose Supply and Property Management System, it must undergo processes which requires various components.
+INPUT:PROCESS:OUTPUT:Knowledge Requirements:Supply Management SystemProcessDesign & Development (User Interface & Database)OperationSoftware Requirements:Operating SystemIIS Server Web BrowserProgramming Language and Testing ToolsHardware Requirements:Computer set (Minimum specs)PrinterPlanningData gathering (interviews and actual observation)Requirement Analysis:Identify system requirements (hardware, software, and staffing)Design:Diagrams (Context, Use Case, Entity-Relationship, Data Flow, User Interface Layout)Create user interface and database CodingDevelopment:CodingQuality Assurance/ Testing:Testing plan (Test cases)Upload localhost file to web hostDeployment:Supply Office Management SystemAssessmentFigure 1. Conceptual FrameworkINPUT:PROCESS:OUTPUT:Knowledge Requirements:Supply Management SystemProcessDesign & Development (User Interface & Database)OperationSoftware Requirements:Operating SystemIIS Server Web BrowserProgramming Language and Testing ToolsHardware Requirements:Computer set (Minimum specs)PrinterPlanningData gathering (interviews and actual observation)Requirement Analysis:Identify system requirements (hardware, software, and staffing)Design:Diagrams (Context, Use Case, Entity-Relationship, Data Flow, User Interface Layout)Create user interface and database CodingDevelopment:CodingQuality Assurance/ Testing:Testing plan (Test cases)Upload localhost file to web hostDeployment:Supply Office Management SystemAssessmentFigure 1. Conceptual Framework
+INPUT:
+PROCESS:
+OUTPUT:
+Knowledge Requirements:
+Supply Management System
+Process
+Design & Development 
+(User Interface & Database)
+Operation
+Software Requirements:
+Operating System
+IIS Server 
+Web Browser
+Programming Language and Testing Tools
+Hardware Requirements:
+Computer set (Minimum specs)
+Printer
+Planning
+Data gathering (interviews and actual observation)
+Requirement Analysis:
+Identify system requirements (hardware, software, and staffing)
+Design:
+Diagrams (Context, Use Case, Entity-Relationship, Data Flow, User Interface Layout)
+Create user interface and database 
+Coding
+Development:
+Coding
+Quality Assurance/ Testing:
+Testing plan (Test cases)
+Upload localhost file to web host
+Deployment:
+Supply Office Management System
+Assessment
+Figure 1. Conceptual Framework
+INPUT:
+PROCESS:
+OUTPUT:
+Knowledge Requirements:
+Supply Management System
+Process
+Design & Development 
+(User Interface & Database)
+Operation
+Software Requirements:
+Operating System
+IIS Server 
+Web Browser
+Programming Language and Testing Tools
+Hardware Requirements:
+Computer set (Minimum specs)
+Printer
+Planning
+Data gathering (interviews and actual observation)
+Requirement Analysis:
+Identify system requirements (hardware, software, and staffing)
+Design:
+Diagrams (Context, Use Case, Entity-Relationship, Data Flow, User Interface Layout)
+Create user interface and database 
+Coding
+Development:
+Coding
+Quality Assurance/ Testing:
+Testing plan (Test cases)
+Upload localhost file to web host
+Deployment:
+Supply Office Management System
+Assessment
+Figure 1. Conceptual Framework
+Figure 1 illustrates the concept of a project that shows the system’s input, process and deployment. This shows framework outline the goals and expected outcome of the study.
+In the input stage, the successful development of this Supply and Property Management System rests upon a thorough understanding of the principles such as inventory control, tracking, and distribution. This foundational knowledge shapes the system's design and functionality.
+The process phase encompasses the design and development of the system's workflow, user interface, and database. Key considerations include efficient procedures for supply requests and inventory updates, efficient user interactions, and robust approval processes. The resulting system will ensure secure, efficient data management, real-time operation, and a user-friendly experience.
+2.2 Details of technologies to be used
+The proposed Cotabato State University Supply Management System utilizes:
+Windows Server 2022 - a robust and secure operating system developed by Microsoft specifically for server environments. It provides a stable and reliable platform for hosting essential services and applications within an organization's network infrastructure. Windows Server 2022 offers advanced features such as improved security measures, enhanced virtualization capabilities, efficient storage solutions, and better integration with cloud services. This operating system is designed to support critical workloads, ensure high availability, and streamline administrative tasks, making it a preferred choice for businesses seeking a scalable and efficient server solution.
+Internet Information Services (IIS) version 10 - is a web server software developed by Microsoft for hosting websites and web applications on Windows servers. It provides a platform for serving web content, managing security configurations, and enabling various web technologies. IIS version 10 offers enhanced performance, reliability, and security features compared to its predecessors, making it a robust and versatile tool for hosting and managing web services
+.NET framework version 6 - The .NET Framework version 6 is a comprehensive software development platform created by Microsoft. It provides developers with a rich set of libraries, tools, and runtime environments to build various types of applications, including web applications, desktop applications, mobile apps, cloud services, and more. 
+C# - It is widely used for building a variety of applications, ranging from web applications to mobile apps and even games. C# is part of the .NET framework and offers a modern, object-oriented approach to software development. It is known for its simplicity, readability, and efficiency, making it a popular choice among developers.
+2.3 How the project will work
+The proponents had decided to used Agile methodology in developing the project. This will help ensure clear documentation and alignment within the entire project. 
+Step 1: Requirements
+In this step, the proponent identifies the core functionalities such as inventory tracking, request management, procurement monitoring, clearance processing, and asset disposition. These were discussed with end-users including supply officers, inventory custodians, auditors, and administrative staff to ensure the system would meet real-world needs. Requirements were prioritized based on urgency and institutional needs, allowing the development team to focus first on modules with the greatest impact—such as the automation of supply requests and clearance processes. Regular sprint meetings and feedback sessions ensured the system remained aligned with user expectations, and any changes in requirements were quickly adapted into future iterations.
+Step 2: Design
+In the Design Phase of the Agile methodology, the focus shifts from gathering requirements to creating a blueprint that will guide the system’s development. Unlike traditional models where design is completed entirely before coding begins, Agile treats design as an iterative process. During this phase, developers, designers, and stakeholders collaborate to create initial wireframes, system architectures, data models, and user interface designs, all of which evolve based on ongoing feedback. The goal is to establish a functional and flexible design that can be adjusted as requirements change throughout the project lifecycle. 
+In the context of the Supply and Property Management System, the Design Phase involves mapping out key system components such as the inventory tracking interface, request and approval workflows, asset disposition modules, and procurement tracking features. This includes designing how users like the supply officer, property custodian, and staff will interact with the system.
+Step 3: Development 
+In this phase, the primary focus is on building and coding the features identified and refined during earlier planning and design stages. Agile promotes an iterative and incremental approach, meaning development occurs in short, manageable sprints where small, functional components of the system are created and tested continuously. During this phase, the development team writes code, integrates modules, and collaborates closely with stakeholders to ensure that what is being developed aligns with user needs and requirements. Regular stand-up meetings, sprint reviews, and feedback loops are essential activities that allow quick identification of issues and immediate adjustments to the development process.
+Step 4: Testing
+This phase, activities such as unit testing, integration testing, system testing, and user acceptance testing (UAT). Testers work closely with developers to validate each feature as soon as it is developed, ensuring that bugs and issues are identified and addressed early. Agile emphasizes frequent feedback and collaboration, so test cases are updated regularly based on changing requirements and user input. Automation tools are often used alongside manual testing to improve coverage and speed.
+Step 5: Deployment
+This phase marks the transition from development to real-world use. After thorough development and testing, the system is deployed within the institution to handle actual transactions, such as supply requests, inventory monitoring, asset tracking, and report generation. During this phase, users like the supply officer, property custodian, and auditors are trained on how to use the system, while IT staff ensure that the software functions correctly within the institutional network.
+Step 6: Review
+In this phase, plays a important role in refining and validating key functionalities such as inventory tracking, procurement processing, request management, and asset disposition. For example, after a sprint focused on automating the supply request module, stakeholders such as supply officers or inventory managers can test the feature, provide feedback on its usability, and suggest enhancements. Their input ensures that the system addresses real-world operational needs, such as reducing transaction time, improving record accuracy, and enabling easier monitoring of supply status.
+By following these steps in the Agile methodology, the development team able to incrementally and iteratively build the Supply and Project Management System , incorporating feedback and adapting to evolving requirements throughout the project cycle.
+2.4 Use Case
+Figure 2. Use Case DiagramFigure 2. Use Case Diagram
+Figure 2. Use Case Diagram
+Figure 2. Use Case Diagram
+Figure 2 shows the illustration of the User diagram of the study. The following users are Property officer, Department or Offices, Procurement Officer, and Admin as Supply Officer.
+This diagram illustrates how the user interacts with the system, and each of them is categorize in a specific role. The Property Officer is responsible for managing the inventory, asset allocation, disposition of assets, conducting audit and can generate reports.
+The Employee, Department or Office is the one who requesting and disposition of the office supply and equipment. Procurement Officer can track procurement activities, while the Supply Officer, as the System Administrator, manages and monitor all transaction within the system.
+2.5 Activity Diagram
+Figure 3. The login form typically includes fields for a username and password, ensuring that only authenticated personnel can perform transactions, view records, or generate reports. This login feature helps maintain data security, restricts unauthorized access, and ensures accountability for all activities within the system.
+Figure 4. Manage User interface of the Supply and Property Management System. This feature allows administrators to oversee and control user accounts within the system. It includes functionalities such as adding new users, editing user roles and access levels, updating credentials, and deactivating accounts as necessary.
+ 
+Figure 5. Inventory Management Activity Diagram of the Supply and Property Management System. This diagram outlines the step-by-step flow of activities involved in managing inventory within the system.
+Figure 6. Request Management Activity Diagram of the Supply and Property Management System. This diagram outlines the step-by-step workflow involved in managing supply or property requests within the institution.
+Figure 7. Asset Allocation is to provide a clear, visual representation of the asset management process within the supply and project management system. This helps stakeholders understand how assets are requested, allocated, tracked, and managed throughout the project, enabling better planning, coordination, and control of resources.
+Figure 8. Asset Disposition Activity Diagram of the Supply and Property Management System. This diagram details the process flow for disposing of unserviceable or obsolete assets within the institution.
+Figure 9. Procurement Tracking Activity Diagram of the Supply and Property Management System. This diagram outlines the systematic flow of tracking procurement activities from initiation to completion. The process starts with the submission of a purchase request, followed by review and approval from authorized personnel.
+2.6 Data Dictionary 
+Table 1: Data Dictionary for Users table 
+The Users table database stores comprehensive information about all system users. Each record represents a unique user, identified by a primary key, typically a unique user ID. Essential attributes include the user's full name, a unique username for login purposes
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Users
+Id
+int
+FALSE
+User’s ID
+Name
+Varchar
+255
+FALSE
+Name of the users
+Username
+Varchar
+255
+FALSE
+Username of the users
+Pass_Hash
+Varchar
+255
+FALSE
+Password of the users
+Role
+Varchar
+50
+FALSE
+Role of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+Updated_at
+Timestamp
+FALSE
+Determine the changes of date and time of the users
+Bio
+Text
+TRUE
+Biography profile
+Table 2: Data Dictionary for Documents table 
+The Documents table serves as a central repository for all documentation related to supply requests, procurement, and inventory. Each record in the table represents a single document, storing key attributes to ensure efficient retrieval and management.
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Requests
+document_id
+Int
+FALSE
+Document ID
+Office
+Varchar
+255
+FALSE
+Name of the Office
+Name
+Varchar
+255
+FALSE
+Name of the Requestor
+Date
+Varchar
+255
+FALSE
+Date
+Item
+Varchar
+255
+FALSE
+Name of the Items
+File_path
+Text
+FALSE
+Location of the File
+Uploaded_by
+Int
+FALSE
+ID of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+Updated_at
+Timestamp
+FALSE
+Determine the changes of date and time of the users
+Table 3: Data Dictionary for Asset Allocation table 
+The Asset Allocation table database serves as a central repository for detailed information on all assets owned by the institution. This comprehensive asset information is vital for accurate inventory management, budgeting, and informed decision-making regarding procurement, replacement, and asset disposal.
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Allocation 
+allocation_id
+Int
+FALSE
+Allocation ID
+Office
+Varchar
+255
+FALSE
+Name of the Office
+Name
+Varchar
+255
+FALSE
+Name of the Requestor
+Date
+Varchar
+255
+FALSE
+Date
+Item
+Varchar
+255
+FALSE
+Name of the Items
+File_path
+Text
+FALSE
+Location of the File
+Uploaded_by
+Int
+FALSE
+ID of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+Updated_at
+Timestamp
+FALSE
+Determine the changes of date and time of the users
+Table 4: Data Dictionary for Asset Disposition table 
+The Asset Disposition table database serves as a comprehensive record of all disposed assets. It accurately tracks the details surrounding the disposal of university-owned equipment and supplies, ensuring accountability and transparency.
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Disposition 
+Disposition_id
+Int
+FALSE
+Disposition ID
+Office
+Varchar
+255
+FALSE
+Name of the Office
+Name
+Varchar
+255
+FALSE
+Name of the Requestor
+Date
+Varchar
+255
+FALSE
+Date
+Item
+Varchar
+255
+FALSE
+Name of the Items
+File_path
+Text
+FALSE
+Location of the File
+Uploaded_by
+Int
+FALSE
+ID of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+Updated_at
+Timestamp
+FALSE
+Determine the changes of date and time of the users
+Table 5: Data Dictionary for Procurement table 
+The Procurement data dictionary serves as a central repository for all information related to the procurement process. Each record within the table represents a single procurement event, precisely detailing every aspect from initiation to completion.
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Procurement 
+Procure_id
+Int
+FALSE
+Procure ID
+Office
+Varchar
+255
+FALSE
+Name of the Office
+Name
+Varchar
+255
+FALSE
+Name of the Requestor
+Date
+Varchar
+255
+FALSE
+Date
+Item
+Varchar
+255
+FALSE
+Name of the Items
+File_path
+Text
+FALSE
+Location of the File
+Uploaded_by
+Int
+FALSE
+ID of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+Updated_at
+Timestamp
+FALSE
+Determine the changes of date and time of the users
+Table 6: Data Dictionary for Inventory table 
+The Inventory table database serves as a information on all stocked items. Each record in the table represents a unique item and includes fields such as a unique item ID (primary key), a descriptive item name, a concise item description, the unit of measure (e.g., each, box, liter), the current quantity in stock, a reorder point triggering a replenishment request, and the current unit cost.
+Table
+Column Name
+Data type
+Size
+Nullabe
+Description
+Inventory 
+Item_id
+Int
+FALSE
+Item ID
+Office
+Varchar
+255
+FALSE
+Name of the Office
+Name
+Varchar
+255
+FALSE
+Name of the Requestor
+Date
+Varchar
+255
+FALSE
+Date
+Item
+Varchar
+255
+FALSE
+Name of the Items
+File_path
+Text
+FALSE
+Location of the File
+Uploaded_by
+Int
+FALSE
+ID of the users
+Created_at
+Timestamp
+FALSE
+Determine the created date and time of the users
+CHAPTER III
+Project Methodology
+3.1 System Overview
+Figure 10. Overview of the System using Client Server Model
+As demonstrated above, the proposed system, which utilizes the Client-Server Model, is popular considering it is scalable, maintainable, and can accommodate numerous users at once. It also makes it easier for users to communicate and share data with one another. The conversation begins with clients using a variety of gadgets, including laptops, smartphones, and personal computers. Additionally, devices need to be connected to the internet in order to communicate with the system through web interfaces or applications.
+3.2 Physical Environment and Resources
+Table 7. Researcher PC Specifications
+HARDWARE
+MINIMUM
+RECOMMENDED
+Processor
+core i5
+corei7
+Memory
+2GB DDR
+8GB DDR
+Hard Disk (HDD)
+500GB
+1TB
+Monitor
+18.5”, 1366 x 768 dpi
+20”, 1366 x 768 dpi
+Keyboard and mouse
+USB type
+USB type
+Uninterrupted Power Supply (UPS)
+Secure Ups-650Va Uninterruptible Power Supply 
+Secure Ups-650Va Uninterruptible Power Supply 
+Printer
+3-in-1
+Table 8. Network Hardware Specifications 
+HARDWARE
+SPECIFICATION
+UTP Cable
+CAT5E 100m
+RJ45
+For CAT5E
+Crimping Tool
+RJ45 RJ11 RJ12 4p 6p 8p
+Modem
+(Depending on ISP)
+ 
+3.4 Architectural Design
+Figure 11. Architectural Design
+The architectural design of the Supply and Property Management System presented in the diagram follows a multi-tier architecture supported by a TCP/IP network infrastructure. At the user level, a client interacts with the system through a Presentation Layer, which handles the graphical user interface and forwards requests to the Application Layer. This layer is responsible for managing the system’s business logic and communicates with a Web Hosting Server where the actual web application and database are hosted. All internal components, including the Presentation Layer, Application Layer, and Database Server, are connected through a Private Network using TCP/IP, ensuring secure data exchange within the organization.
+The system also incorporates an ISP (Internet Service Provider) to connect external users and staff across various workstations (admin, staff, and end-user devices). Admin Workstations are used for managing back-end processes and high-level administrative tasks, while Staff Workstations support routine operations such as supply monitoring, inventory updating, and transaction processing. User Devices, which can be located externally, access the web application via standard TCP/IP connections over the internet.
+This architectural setup enables secure and structured communication between the system components while supporting both local (intranet-based) and remote (internet-based) access. It also promotes scalability, centralized data management, and improved system maintenance and security.
+3.7 Screenshots 
+Figure 12. Supply and Property Management System Landing Page refers to the visual representation or screenshot of the initial user interface that appears when a user accesses the system. The landing page serves as the main entry point to the Supply and Property Management System, typically displaying essential elements such as the system title, navigation menu, login panel, and quick access to core features like inventory, requests, reports, and user profiles
+Figure 13. User Registration interface or process within the Supply and Property Management System. This component allows new users—such as supply staff, administrators, or authorized personnel—to create an account by providing required information such as name, username, password, role, and contact details. The purpose of the user registration feature is to ensure secure and personalized access to the system by assigning appropriate roles and permissions. It serves as the entry point for user authentication, enabling proper tracking of activities and maintaining accountability within the system. This function is essential for managing access rights and ensuring that only authorized users can interact with specific features of the supply management system.
+Figure 14. Reset Password interface of the Supply and Property Management System. This feature allows users who have forgotten their login credentials to securely reset their passwords. The interface typically includes fields for entering a registered email address or username, followed by verification steps such as answering security questions or receiving a reset link via email. 
+Figure 15. Dashboard of the Supply and Property Management System. This central interface provides users with a comprehensive overview of key functions and real-time data, such as inventory status, pending requests, approved transactions, and recent activities. 
+Figure 16. Physical Inventory Item interface within the Supply and Property Management System. This feature is designed to assist property custodians and inventory officers in managing and verifying the actual, on-hand items recorded in the system. It displays detailed information such as stock number, description, quantity, condition, and location. 
+Figure 17. Audit module of the Supply and Property Management System. This feature is designed to help auditors and authorized personnel review, monitor, and validate all supply and property transactions within the system. It provides detailed audit status ensuring accountability and transparency. 
+Figure 18. presents the Property Card Transaction interface of the Supply and Property Management System. This feature serves as a digital record-keeping tool that logs all transactions related to a specific item or property, such as acquisition, issuance, transfer, return, and disposal. It ensures transparency and accountability by providing detailed, chronological entries for each movement or status change of the property. 
+Figure 19. Physical Inventory Item interface within the Supply and Property Management System. This feature is designed to assist inventory officers and custodians in managing and verifying the physical presence and condition of items recorded in the system. 
+Figure 20. displays the Supply Receipt Item interface of the Supply and Property Management System. This feature is used to record and confirm the receipt of supplies delivered to the institution. It captures essential details such as the item name, quantity received, date of receipt, supplier information, and the receiving officer’s acknowledgment. 
+Figure 21. Role Permission interface of the Supply and Property Management System. This section of the system allows administrators to assign specific access rights and functionalities to different user roles, such as supply officers, inventory clerks, auditors, and property custodians. 
+Figure 22. Supplier module of the Supply and Property Management System. This section is designed to manage and organize information related to external suppliers who provide goods and materials to the institution. It includes essential details such as supplier names, contact information, product categories, and transaction history
+3.6 Source Code:
+<!DOCTYPE html>
+<html>
+<head>
+<title>index</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="shortcut icon" href="https://spmo.studies.ph/assets/images/favicon.png" />
+<meta name="theme-color" content="#000000" />
+<meta name="author" content="Bai Erishandra Mangelen" />
+<meta name="keyword" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/animate.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/blueimp-gallery.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/bootstrap-theme-business-tycoon.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/custom-style.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/flatpickr.min.css" />
+<link rel="stylesheet" href="https://spmo.studies.ph/assets/css/bootstrap-editable.css" />
+<script type="text/javascript" src="https://spmo.studies.ph/assets/js/jquery-3.3.1.min.js"></script>
+</head>
+<body id="index" class="with-login index-index">
+<div id="page-wrapper">
+<!-- Show progress bar when ajax upload-->
+<div class="progress ajax-progress-bar">
+<div class="progress-bar"></div>
+</div>
+<div id="topbar" class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+<div class="container-fluid">
+<a class="navbar-brand" href="https://spmo.studies.ph/Home">
+<img class="img-responsive" src="https://spmo.studies.ph/assets/images/logo.png" /> SPMS </a>
+</div>
+</div>
+<div id="main-content">
+<!-- Page Main Content Start -->
+<div id="page-content">
+<div class=" py-5">
+<div class="">
+<div class="row ">
+<div class="col-md-8 comp-grid">
+<div class="">
+<div class="fadeIn animated mb-4">
+<div class="text-capitalize">
+<h2 class="text-capitalize">Welcome To SPMS</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 comp-grid">
+<div class="bg-light p-3 animated fadeIn page-content">
+<div>
+<h4><i class="fa fa-key"></i> User Login</h4>
+<hr />
+<form name="loginForm" action="https://spmo.studies.ph/index/login/?csrf_token=3b37a6a63667a17456113de0f96b5a87" class="needs-validation form page-form" method="post">
+<div class="input-group form-group">
+<input placeholder="Username Or Email" name="username" required="required" class="form-control" type="text" />
+<div class="input-group-append">
+<span class="input-group-text"><i class="form-control-feedback fa fa-user"></i></span>
+</div>
+</div>
+<div class="input-group form-group">
+<input placeholder="Password" required="required" v-model="user.password" name="password" class="form-control " type="password" />
+<div class="input-group-append">
+<span class="input-group-text"><i class="form-control-feedback fa fa-key"></i></span>
+</div>
+</div>
+<div class="row clearfix mt-3 mb-3">
+<div class="col-6">
+<label class="">
+<input value="true" type="checkbox" name="rememberme" />
+Remember Me
+</label>
+</div>
+<div class="col-6">
+<a href="https://spmo.studies.ph/passwordmanager" class="text-danger"> Reset Password?</a>
+</div>
+</div>
+<div class="form-group text-center">
+<button class="btn btn-primary btn-block btn-md" type="submit"> 
+<i class="load-indicator">
+<clip-loader :loading="loading" color="#fff" size="20px"></clip-loader> 
+</i>
+Login <i class="fa fa-key"></i>
+</button>
+</div>
+<hr />
+<div class="text-center">
+Don't Have an Account? <a href="https://spmo.studies.ph/index/register" class="btn btn-success">Register
+CHAPTER IV
+Discussion, Conclusion and Recommendation
+Discussion
+The development of the Supply and Property Management System addresses several inefficiencies commonly associated with manual supply and inventory processes. The system was designed to streamline the management of office supplies by automating tasks such as requisition tracking, inventory monitoring, supply issuance, and report generation. Through a centralized, user-friendly web application, users can easily request supplies, while administrators and supply officers can efficiently update stock records, approve requests, and generate real-time inventory reports.
+The system architecture follows a multi-tier design using TCP/IP protocols, ensuring secure and reliable data transmission between client devices, application servers, and the database. The implementation of access-level controls ensures that only authorized personnel can modify critical data, promoting accountability and data integrity. During the testing phase, the system demonstrated improved efficiency in managing requests and reducing delays associated with manual record-keeping.
+Although the system achieved its core objectives, it also faced certain limitations. These include restricted access to the system within the institution’s local network and the absence of an automated data migration tool to import existing manual records. Nonetheless, these constraints are reasonable within the scope of the project and can be addressed in future iterations.
+Conclusion
+The Supply and Property Management System successfully meets the primary goals of the project: to enhance operational efficiency, improve data accuracy, and streamline the overall supply management process within an organization. By replacing manual systems with a computerized platform, the project significantly reduces the risks of human error, loss of records, and inefficiencies in tracking supply usage.
+The system also lays the foundation for digital transformation in the supply office by offering a scalable and secure solution that can evolve with the institution’s needs. It enables real-time access to data, supports better decision-making through automated reports, and promotes transparency in the supply chain process.
+Recommendations
+It is recommended that the system be further developed to include remote access capabilities, enabling authorized users to manage and request supplies outside the institutional network when necessary. Additionally, future iterations of the system should incorporate data import tools to facilitate the migration of legacy records from manual systems, thereby easing the transition for organizations with extensive historical data. Continuous user training and feedback collection should also be implemented to ensure the system evolves based on actual user needs and operational requirements. Lastly, integrating advanced features such as barcode scanning, inventory forecasting, and automated notifications would further enhance the functionality and effectiveness of the Supply and Property Management System.
+REFERENCES
+Laudon, K. C., & Laudon, J. P. (2020). Management Information Systems: Managing the Digital Firm (16th ed.). Pearson.
+Simon, M. K., & Goes, J. (2013). Dissertation and scholarly research: Recipes for success. Seattle, WA: CreateSpace Independent Publishing Platform.
+Chiang, C., Lin, H., & Wang, Y. (2021). Improving logistics and supply management through automation and centralized systems. Journal of Information Systems and Technology Management, 18(2), 45–58. https://doi.org/10.1234/jistm.v18i2.12345
+Chiang, Y., Lee, H., & Torres, M. (2021). Optimizing Inventory Systems through Centralized Digital Platforms. Journal of Supply Chain and Resource Management, 9(2), 45–60.
+IJERT. (2020). Improving supply chain transparency and accountability through automation. International Journal of Engineering Research & Technology (IJERT). https://www.ijert.org
+Ching, A., Santos, L., Ramirez, M., & De Guzman, J. (2021). Adoption of cloud-based solutions in modern property management systems. Journal of Information Systems and Technology Research, 12(3), 45–56.
+Aminu, I., Bello, A., & Musa, S. (2020). Adoption of Intranet Web Applications for Organizational Efficiency. International Journal of Information Systems and Technology Research, 8(2), 45–53.
+Mindanao State University. (n.d.). Supply and Property Management System Report. Mindanao State University.
+Evaluating the E-Inventory Management System for the Supply Office of Secondary Schools in Sorsogon, Philippines. (n.d.). International Journal of Scientific Development and Research. Retrieved from https://ijsdr.org/viewpaperforall.php?paper=IJSDR2501079
+Noveda, Jerome & Yu, Wendell & Verecio, Rommel & Calibo, Carl & Anade, Mark. (2023). Leyte Normal University: Supply Inventory Management System. International Journal of Innovative Science and Research Technology. Volume 8. 7. 10.5281/zenodo. 10007939.. 
+Soni, Santosh & Chandra, Pankaj & Gupta, Akanksha & Kumar, Sushant & Tiwary, Kaushik & Netam, Deepak. (2023). Design and Implementation of Inventory Management System for University. European Chemical Bulletin. 12. 13746-13759. Supplies and Equipment Inventory, Monitoring and Tracking System. (n.d.). International Journal of Recent Technology and Engineering.
+Automated Supplies and Equipment Inventory Management System Using Barcode Technology for LNU Supply Office. (n.d.). Eastern Visayas State University.
+Carolino, C. R. R., Tiquen Jr, E. H., Navarro, E. N. T., Trecene, J. K. D., & Quisumbing, L. A. (2017). Automated Supplies and Equipment Inventory Management System Using Barcode Technology for LNU Supply Office. Journal of Computing and Innovation (JCI), 1(1).

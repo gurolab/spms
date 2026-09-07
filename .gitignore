@@ -1,0 +1,13 @@
+.secrets/
+.env.php
+.env
+
+# Local and generated files
+.tmp_*
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

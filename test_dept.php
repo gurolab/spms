@@ -1,0 +1,1 @@
+<?php require_once 'repo/Department.model.php'; $d = new Department(); print_r($d->getAll()); 

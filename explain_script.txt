@@ -1,0 +1,274 @@
+﻿SMS Presentation Script
+
+====================================================================
+0) Quick Demo Readiness Check (Before You Present)
+====================================================================
+
+1. Confirm login works for all six roles:
+   - System Admin (roleid=1)
+   - Supply Officer (roleid=2)
+   - Inventory Officer (roleid=3)
+   - Property Custodian (roleid=4)
+   - Auditor (roleid=5)
+   - Employee (roleid=6)
+2. Prepare at least one sample RIS request with line items.
+3. Prepare at least one received supply and one issued supply transaction.
+4. Prepare at least one ICS/PAR record and one property transfer record.
+5. Prepare at least one RPCI, RPCPPE, and IIRUP entry for auditor demo.
+6. Open browser.
+7. Keep this demo sequence:
+   Employee -> Supply Officer -> Inventory Officer -> Property Custodian -> Auditor -> System Admin
+
+
+====================================================================
+1) Opening Script (Present your slide)
+====================================================================
+
+Good day, everyone. Thank you for this opportunity to present my capstone project,
+the Supply Management System, or SMS, for Cotabato State University.
+
+Based on Chapter I of the study, the main problem is that manual and Excel-based
+processing causes delays, retrieval difficulty, and inventory inaccuracies.
+
+SMS addresses this by digitizing end-to-end operations:
+1. Requesting supplies/property
+2. Receiving and issuing items
+3. Inventory and stock monitoring
+4. Property accountability tracking
+5. Compliance report generation
+6. Audit trail recording
+
+The system is role-based so each office sees only what is needed for their
+function while preserving one centralized institutional record.
+
+
+====================================================================
+2) Simple Story (Slides)
+====================================================================
+
+Think of SMS as one secure university service desk with six windows:
+
+- Window 1: Employee files requests.
+- Window 2: Supply Officer receives deliveries and issues supplies.
+- Window 3: Inventory Officer watches stock health and reorder risks.
+- Window 4: Property Custodian tracks equipment accountability.
+- Window 5: Auditor checks compliance reports and activity logs.
+- Window 6: System Admin manages users, roles, and governance.
+
+
+Illustration of flow:
+
+Department/Office Request
+        |
+        v
+RIS Processing + Issuance (RSMI)
+        |
+        +--> Stock cards and supply ledger are updated
+        |
+        v
+For non-consumables:
+ICS/PAR -> Property Card -> Transfer/Status tracking
+        |
+        v
+Audit Logs + Compliance Reports (RPCI/RPCPPE/IIRUP)
+
+
+====================================================================
+3) Terms and Roles (Slides)
+====================================================================
+
+From SMS use-case wording:
+- "Department or Office requester" -> Employee role
+- "Procurement/Supply function" -> Supply Officer role
+- "Property Officer" -> Property Custodian role
+- "Admin as Supply Officer" -> System Admin role (full oversight)
+- Inventory tracking responsibilities -> Inventory Officer role
+- Audit and compliance review -> Auditor role
+
+
+====================================================================
+4) Demo the System (Script Per Role (What To Click + What To Say))
+====================================================================
+
+--------------------------------------------------------------------
+A) EMPLOYEE ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: employee/dashboard.php
+- Request page: employee/requisition.php
+- Request details: employee/request-details.php
+- Status page: employee/acknowledgment.php
+
+What to say:
+1. "As an employee from a requesting office, I can create a request directly in SMS."
+2. "I encode requisition date, fund cluster, purpose, and remarks, then save."
+3. "I open the request and add line items with quantities."
+4. "While status is Requested, I can still edit details. Once processing starts, it is locked for integrity."
+5. "In acknowledgment/status, I can track request progress and assigned accountabilities."
+
+Value line:
+- "This supports on-time request processing and transparent request tracking."
+
+
+--------------------------------------------------------------------
+B) SUPPLY OFFICER ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: supplyofficer/index.php
+- Receive supplies: supplyofficer/receive.php
+- RIS management: supplyofficer/ris.php
+- Issue supplies: supplyofficer/issue_supplies.php
+- Inventory reports: supplyofficer/inventory_reports.php
+
+What to say:
+1. "As Supply Officer, I record deliveries with receipt details and supplier info."
+2. "When I add received items, stock is updated and transaction history is recorded."
+3. "In RIS, I monitor request statuses from requested to completed."
+4. "In issuance, I release quantities based on available stock and remaining RIS quantities."
+5. "The system helps prevent over-issuance and updates request progress."
+
+Value line:
+- "This reduces manual encoding errors and creates traceable release records."
+
+
+--------------------------------------------------------------------
+C) INVENTORY OFFICER ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: inventoryofficer/dashboard.php
+- Stock cards: inventoryofficer/stock_cards.php
+- Supply ledger card: inventoryofficer/slc.php
+- Reconciliation: inventoryofficer/inventory_reconciliation.php
+
+What to say:
+1. "As Inventory Officer, I monitor stock status, reorder level, and safety stock."
+2. "Stock Cards show current balance and inventory health per item."
+3. "The Supply Ledger Card shows movement history, quantities, and unit cost trail."
+4. "Reconciliation helps identify items needing replenishment action."
+
+Value line:
+- "This supports better resource allocation and evidence-based procurement planning."
+
+
+--------------------------------------------------------------------
+D) PROPERTY CUSTODIAN ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: propertycustodian/dashboard.php
+- ICS: propertycustodian/ics.php and ics_items.php
+- PAR: propertycustodian/par.php and par_items.php
+- Property cards: propertycustodian/property_cards.php
+- Property transfers: propertycustodian/property_transfers.php
+
+What to say:
+1. "As Property Custodian, I manage accountability of non-consumable assets."
+2. "ICS and PAR record assignment details, responsible personnel, and status."
+3. "Property cards keep a chronological movement history per tagged asset."
+4. "Property transfer module captures from-to accountability changes."
+
+Value line:
+- "This creates a full accountability chain from assignment to transfer and disposition."
+
+
+--------------------------------------------------------------------
+E) AUDITOR ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: auditor/dashboard.php
+- Audit logs: administrator/audit_logs.php
+- RPCI: administrator/physical_inventory_reports.php
+- RPCPPE: administrator/physical_ppe_reports.php
+- IIRUP: administrator/unserviceable_reports.php
+
+What to say:
+1. "As Auditor, I have scoped access to compliance reports and activity logs."
+2. "I can review RPCI, RPCPPE, and IIRUP records with supporting details."
+3. "Audit logs show who performed an action, when, and on which entity."
+4. "The dashboard summarizes report counts, pending sign-off, and recent scoped activity."
+
+Value line:
+- "This improves evidence retrieval and supports accountability and transparency."
+
+
+--------------------------------------------------------------------
+F) SYSTEM ADMIN ROLE SCRIPT
+--------------------------------------------------------------------
+
+Screen path:
+- Dashboard: administrator/dashboard.php
+- Users: administrator/users.php
+- Roles: administrator/roles.php
+- Departments: administrator/departments.php
+- Suppliers: administrator/suppliers.php
+- System settings: administrator/system_settings.php
+- Audit logs: administrator/audit_logs.php
+
+What to say:
+1. "As System Admin, I oversee user access, governance settings, and audit visibility."
+2. "In Users, I assign role and department per account."
+3. "Roles and Departments define organization structure and access boundaries."
+4. "Suppliers and system settings centralize master data management."
+5. "Audit logs provide traceability for sensitive and operational actions."
+
+Value line:
+- "Administration can enforce policy and quickly monitor institutional operations."
+
+####################################################################
+End of Demo
+####################################################################
+
+====================================================================
+Closing Script
+====================================================================
+
+"In summary, SMS centralizes supply and property operations, improves tracking,
+supports accountability, and aligns with the project objectives on usefulness,
+ease of use, accessibility, and security. Thank you, and I welcome your
+questions and recommendations for the next iteration."
+
+
+
+Q&A Sample (magamit ito during final defense)
+====================================================================
+5) Evaluation Script (Aligned to Chapter I Objective 1.3.2.5)
+====================================================================
+
+Use this part when asked about project evaluation variables:
+
+
+Perceived Usefulness:
+- "SMS reduces delays in requesting, issuing, and report consolidation."
+- "Users can see real-time status and do not rely on manual follow-up."
+
+Perceived Ease of Use:
+- "Each role has focused menus and workflow-specific pages."
+- "Users perform tasks in guided forms instead of manual spreadsheet methods."
+
+Accessibility:
+- "The current implementation is intranet-oriented, aligned with project scope."
+- "Authorized users can access role dashboards and modules with account-based login."
+
+Security:
+- "Role-based access control limits module visibility by function."
+- "Authentication events and operational actions are logged in audit trails."
+- "CSRF tokens are enforced for POST-based actions."
+
+
+====================================================================
+6) Transparent Scope and Limitation Script
+====================================================================
+
+Use this line when stakeholders ask about boundaries:
+
+
+"Based on the documented scope and limitations, this version is primarily for
+institutional network use, and migration of old manual records is still largely
+manual. Recommended next steps are remote access hardening, data import tools,
+barcode support, and inventory forecasting."
+
+
